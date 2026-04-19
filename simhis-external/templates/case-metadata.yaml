@@ -1,0 +1,27 @@
+case_id: example-case
+title: Example sediment supply scenario
+prepared_by: ""
+prepared_at: ""
+
+study_period:
+  start: ""
+  end: ""
+  timezone: Asia/Tokyo
+
+inputs:
+  observation_product: ""
+  scenario_definition: ""
+  notes: ""
+
+sediment_supply:
+  scenario_family: ""
+  source_cells: []
+  trigger_time: ""
+  magnitude_summary: ""
+
+handoff:
+  destination_team: ""
+  expected_results:
+    - accumulated_sediment
+    - selected_timeseries
+  remarks: ""

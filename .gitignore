@@ -1,0 +1,45 @@
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+
+# Legacy snapshot from the old placeholder workspace
+legacy/placeholder-import/**
+!legacy/placeholder-import/
+
+# Local data and generated outputs for the hydrophone GP workflow
+hydrophone-gp/data/raw/**
+!hydrophone-gp/data/raw/
+!hydrophone-gp/data/raw/.gitkeep
+hydrophone-gp/data/processed/**
+!hydrophone-gp/data/processed/
+!hydrophone-gp/data/processed/.gitkeep
+hydrophone-gp/data/references/**
+!hydrophone-gp/data/references/
+!hydrophone-gp/data/references/.gitkeep
+hydrophone-gp/models/trained/**
+!hydrophone-gp/models/trained/
+!hydrophone-gp/models/trained/.gitkeep
+hydrophone-gp/outputs/**
+!hydrophone-gp/outputs/
+!hydrophone-gp/outputs/predictions/
+!hydrophone-gp/outputs/predictions/.gitkeep
+!hydrophone-gp/outputs/figures/
+!hydrophone-gp/outputs/figures/.gitkeep
+
+# File exchange area for the external simhis workflow
+simhis-external/exports/**
+!simhis-external/exports/
+!simhis-external/exports/scenario-packages/
+!simhis-external/exports/scenario-packages/.gitkeep
+!simhis-external/exports/observation-products/
+!simhis-external/exports/observation-products/.gitkeep
+simhis-external/imports/**
+!simhis-external/imports/
+!simhis-external/imports/run-metadata/
+!simhis-external/imports/run-metadata/.gitkeep
+!simhis-external/imports/selected-results/
+!simhis-external/imports/selected-results/.gitkeep
+
+# Optional thesis build products
+thesis/manuscript/build/

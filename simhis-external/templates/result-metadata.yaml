@@ -1,0 +1,16 @@
+case_id: example-case
+executed_by: ""
+executed_at: ""
+
+runtime:
+  system: ""
+  queue: ""
+  solver_version: ""
+
+artifacts:
+  selected_results_path: ""
+  raw_results_location: ""
+
+summary:
+  status: pending
+  notes: ""
