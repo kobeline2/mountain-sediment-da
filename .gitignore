@@ -8,6 +8,11 @@ legacy/placeholder-import/**
 !legacy/placeholder-import/
 
 # Local data and generated outputs for the hydrophone GP workflow
+hydrophone-gp/configs/local_paths.m
+hydrophone-gp/configs/parameters.m
+hydrophone-gp/*.asv
+hydrophone-gp/*.m~
+hydrophone-gp/*.mex*
 hydrophone-gp/data/raw/**
 !hydrophone-gp/data/raw/
 !hydrophone-gp/data/raw/.gitkeep
